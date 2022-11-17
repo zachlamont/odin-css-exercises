@@ -1,0 +1,19 @@
+* {font-family: sans-serif;}
+
+.one,
+.five,
+.cool {
+    background-color:pink;
+}
+#one {
+    color: blue;
+    font-size: 35px;
+}
+#four {
+    background-color: lightgreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cool{
+    font-size: 25px;
+}
