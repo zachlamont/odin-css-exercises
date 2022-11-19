@@ -7,21 +7,34 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 1px; /* adding this made the top and bottom margin display correctly. */
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 10px;
+  padding: 20px;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  padding: 8px;
+  font-weight: 700;
 }
